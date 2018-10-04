@@ -9,7 +9,7 @@ class Triangle
   end
 
   def side_too_large
-    if one + two < three || two + three < one || one + three < two
+    if one + two <= three || two + three <= one || one + three <= two
       true
     else
       false
